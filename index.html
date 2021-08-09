@@ -45,7 +45,7 @@
   .
             tag a {font-size: 10px;}
 
-            .menu img {display:none; padding-top:-10px;}
+            .menu img {display:none; margin-top:-10px;}
             
             .big-text{font-size:50px;}
             
@@ -108,6 +108,27 @@
 }
 		
         
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-embed iframe,
+.video-embed object,
+.video-embed embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+        
 
 		
 	</style>
@@ -127,6 +148,8 @@
         <div class="menu"><div class="tag"><img src="mmb-fla_ko.png" style="width:125px; vertical-align:middle; padding-right:50px;"> <a href="#about">ABOUT US</a> ■ <a href="#work">WORK</a> ■ <a href="#contact">CONTACT</a></div></div>
         
 	<div class="content" style="margin-top:-50px;">
+		<img src="mmb-squares.png" style=" position: fixed; top:-12%; right:0; z-index:-5; width:50%; overflow-x: hidden;">
+
         <div class="big-text" style="margin-top:150px;">WE DIDN'T COME TO FLORIDA TO RETIRE.</div>	
         <div class="tag">LET'S GET TO WORK.</div>
         <div class="text" style="width:60%">Hello, we’re MMB – a.k.a. McCarthy Mambro Bertino. Yes, we’re new to the region. But so are a lot of companies expanding here. And that’s where we can help. With a 20-year legacy of building multi-dimensional, industry-leading brands, we specialize in growing businesses in hyper-competitive categories. From food and fashion, to automotive and healthcare.
